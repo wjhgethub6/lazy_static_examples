@@ -1,0 +1,21 @@
+[package]
+name = "lazy_static_examples"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+lazy_static = "1.4.0"
+
+[[examples]]
+name = "vector"
+path = "examples/vector.rs"
+
+[[examples]]
+name = "hashmap"
+path = "examples/hashmap.rs"
+
+[[examples]]
+name = "multi-threading"
+path = "examples/multi-threading.rs"
